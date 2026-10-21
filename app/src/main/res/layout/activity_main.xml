@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F6FA" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#3F51B5"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:elevation="6dp"
+            android:gravity="center"
+            android:text="@string/bell"
+            android:textSize="58sp"
+            tools:ignore="TextSizeCheck" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notification_demo"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_application_development"
+            android:textSize="15sp"
+            android:textColor="#E8EAF6"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="25dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:elevation="8dp"
+            android:padding="24dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/class_remainder"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mobile_application_development"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#212121"
+                android:layout_marginTop="12dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/today_s_class_starts_at_10_00_am_tap_the_button_below_to_receive_a_reminder_notification"
+                android:textSize="16sp"
+                android:textColor="#616161"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_10_00_am"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#303F9F"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tap_the_button_below_to_push_notification"
+            android:textSize="15sp"
+            android:textColor="#757575"
+            android:gravity="center"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:id="@+id/btnNotify"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="🔔 SHOW NOTIFICATION"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3F51B5"
+            android:elevation="5dp"/>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NotificationTest</string>
+    <string name="bell">🔔</string>
+    <string name="notification_demo">Notification Demo</string>
+    <string name="android_application_development">Android Application Development</string>
+    <string name="class_remainder">CLASS REMAINDER</string>
+    <string name="mobile_application_development">Mobile Application Development</string>
+    <string name="today_s_class_starts_at_10_00_am_tap_the_button_below_to_receive_a_reminder_notification">Today\'s Class Starts at 10:00 AM. Tap the button below to receive a reminder notification.</string>
+    <string name="_10_00_am">🕒 10:00 AM</string>
+    <string name="tap_the_button_below_to_push_notification">Tap the button below to push notification!!</string>
+</resources>
